@@ -1,5 +1,5 @@
 /*
-* Data Value Custom Scripts
+* Gralab Custom Scripts
 */
 
 (function ($) {

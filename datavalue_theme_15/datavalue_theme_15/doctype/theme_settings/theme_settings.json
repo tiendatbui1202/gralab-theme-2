@@ -226,7 +226,7 @@
    "fieldname": "data_value_theme_installed",
    "fieldtype": "Check",
    "hidden": 1,
-   "label": "Data Value Theme Installed"
+   "label": "Gralab Theme Installed"
   }
  ],
  "issingle": 1,
