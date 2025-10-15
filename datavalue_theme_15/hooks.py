@@ -1,10 +1,10 @@
 from . import __version__ as app_version
 
 app_name = "datavalue_theme_15"
-app_title = "Datavalue Theme 15"
-app_publisher = "Abdo Hamoud"
-app_description = "Frappe 15 Theme App"
-app_email = "abdo.host@gmail.com"
+app_title = "Gralab Theme 15"
+app_publisher = "Gralab"
+app_description = "Gralab 15 Theme App"
+app_email = "info@gralab.io"
 app_license = "mit"
 # required_apps = []
 

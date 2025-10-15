@@ -186,7 +186,7 @@
             methods: {
                 get_company_logo: function () {
                     const $this = this;
-                    let logo = 'datavalue-new-logo.svg';
+                    let logo = 'gralab-logo.svg';
                     if ($('html').attr('data-theme-mode') == 'dark') {
                         logo = 'datavalue-new-logo-light.svg';
                     }
@@ -207,7 +207,7 @@
                 }
             },
             async mounted() {
-                let logo = 'datavalue-new-logo.svg';
+                let logo = 'gralab-logo.svg';
                 if ($('html').attr('data-theme-mode') == 'dark') {
                     logo = 'datavalue-new-logo-light.svg';
                 }
@@ -256,12 +256,12 @@
                         label: 'EN',
                         flag: 'dv-lang-flag lang-en'
                     },
-                    AR: {
-                        label: 'AR',
-                        flag: 'dv-lang-flag lang-ar'
+                    VI: {
+                        label: 'VI',
+                        flag: 'dv-lang-flag lang-vi'
                     }
                 },
-                active_lang: 'EN'
+                active_lang: 'VI'
             },
             methods: {
                 get_current_language: function () {
@@ -273,7 +273,7 @@
                             if (response && response.message && response.message) {
                                 $this.active_lang = (response.message).toUpperCase();
                             } else {
-                                $this.active_lang = localStorage.getItem("active_lang") || 'EN';
+                                $this.active_lang = localStorage.getItem("active_lang") || 'VI';
                             }
                         }
                     });
