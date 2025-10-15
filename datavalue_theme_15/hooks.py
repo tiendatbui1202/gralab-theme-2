@@ -1,7 +1,7 @@
 from . import __version__ as app_version
 
 app_name = "datavalue_theme_15"
-app_title = "Gralab Theme 15"
+app_title = "Datavalue Theme 15"
 app_publisher = "Gralab"
 app_description = "Gralab 15 Theme App"
 app_email = "info@gralab.io"
