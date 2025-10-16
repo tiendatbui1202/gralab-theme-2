@@ -88,7 +88,7 @@
             let selected_flag = $this.find(".dv-lang-flag").attr("class");
             $("#header-navbar-change-lang .dropdown-lang-link").html(`<span class="${selected_flag}"></span> ${language}`);
             frappe.call({
-                method: "datavalue_theme_15.api.change_language",
+                method: "gralab_theme_15.api.change_language",
                 args: {
                     language: language.toLowerCase()
                 },
@@ -192,7 +192,7 @@
                     }
                     frappe.call({
                         type: 'POST',
-                        method: 'datavalue_theme_15.api.get_company_logo',
+                        method: 'gralab_theme_15.api.get_company_logo',
                         args: {},
                         callback: async function (response) {
                             if (response.message && response.message.length) {
@@ -200,7 +200,7 @@
                                 $this.logo_class = 'has-company-logo';
                             } else {
                                 $this.logo_class = '';
-                                $this.logo_path = `/assets/datavalue_theme_15/images/${logo}`;
+                                $this.logo_path = `/assets/gralab_theme_15/images/${logo}`;
                             }
                         }
                     });
@@ -216,7 +216,7 @@
                     this.logo_class = 'has-company-logo';
                 } else {
                     this.logo_class = '';
-                    this.logo_path = `/assets/datavalue_theme_15/images/${logo}`;
+                    this.logo_path = `/assets/gralab_theme_15/images/${logo}`;
                 }
             },
             created: function () {
@@ -267,7 +267,7 @@
                 get_current_language: function () {
                     const $this = this;
                     frappe.call({
-                        method: "datavalue_theme_15.api.get_current_language",
+                        method: "gralab_theme_15.api.get_current_language",
                         args: {},
                         callback: function (response) {
                             if (response && response.message && response.message) {

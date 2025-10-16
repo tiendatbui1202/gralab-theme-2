@@ -20,8 +20,8 @@ www.abdo-host.com
 		<meta name="apple-mobile-web-app-status-bar-style" content="white">
 		<meta name="mobile-web-app-capable" content="yes">
 		<title>Gralab</title>
-		<link rel="shortcut icon" href="{{ theme_settings.favicon or "/assets/datavalue_theme_15/images/favico-01.svg" }}" type="image/x-icon">
-		<link rel="icon" href="{{ theme_settings.favicon or "/assets/datavalue_theme_15/images/favico-01.svg" }}" type="image/x-icon">
+		<link rel="shortcut icon" href="{{ theme_settings.favicon or "/assets/gralab_theme_15/images/favico-01.svg" }}" type="image/x-icon">
+		<link rel="icon" href="{{ theme_settings.favicon or "/assets/gralab_theme_15/images/favico-01.svg" }}" type="image/x-icon">
 		<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family={{theme_settings.font_family or 'Cairo'}}:300,400,500,600,700,800,900">
 		{% for include in include_css -%}
 		{{ include_style(include) }}
@@ -69,7 +69,7 @@ www.abdo-host.com
 		  data-show-help-icon="{{theme_settings.show_help_icon or 0}}"
 		  data-font-family="{{theme_settings.font_family or 'Cairo'}}">
         <div class="centered splash">
-            <img style="max-width:100px;max-height:100px;" src="{{ theme_settings.loading_image or "/assets/datavalue_theme_15/images/logo-v.png" }}" />
+            <img style="max-width:100px;max-height:100px;" src="{{ theme_settings.loading_image or "/assets/gralab_theme_15/images/logo-v.png" }}" />
         </div>
         <div class="dv-app-theme main-section">
             <header id="app-header"></header>
@@ -108,7 +108,7 @@ www.abdo-host.com
 		{% for include in include_js %}
 		{{ include_script(include) }}
 		{% endfor %}
-		<script type="text/javascript" src="/assets/datavalue_theme_15/js/datavalue_theme.js?ver={{ build_version }}"></script>
+		<script type="text/javascript" src="/assets/gralab_theme_15/js/datavalue_theme.js?ver={{ build_version }}"></script>
 
 		{% include "templates/includes/app_analytics/google_analytics.html" %}
 

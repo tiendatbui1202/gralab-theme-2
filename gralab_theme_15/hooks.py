@@ -1,7 +1,7 @@
 from . import __version__ as app_version
 
-app_name = "datavalue_theme_15"
-app_title = "Datavalue Theme 15"
+app_name = "gralab_theme_15"
+app_title = "Gralab Theme 15"
 app_publisher = "Gralab"
 app_description = "Gralab 15 Theme App"
 app_email = "info@gralab.io"
@@ -12,52 +12,52 @@ app_license = "mit"
 # ------------------
 
 website_context = {
-    "favicon": "/assets/datavalue_theme_15/images/datavlue-new-icon-xs.png",
-    "splash_image": "/assets/datavalue_theme_15/images/theme_splash_empty.jpg"
+    "favicon": "/assets/gralab_theme_15/images/datavlue-new-icon-xs.png",
+    "splash_image": "/assets/gralab_theme_15/images/theme_splash_empty.jpg"
 }
 
 app_include_css = [
-    "/assets/datavalue_theme_15/plugins/animate.css/animate.min.css",
-    "/assets/datavalue_theme_15/plugins/fontawesome/all.min.css",
-    "/assets/datavalue_theme_15/plugins/tooltip/tooltip-theme-twipsy.css",
-    "/assets/datavalue_theme_15/plugins/flat-icons/flaticon.css",
-    "/assets/datavalue_theme_15/plugins/simple-calendar/simple-calendar.css",
+    "/assets/gralab_theme_15/plugins/animate.css/animate.min.css",
+    "/assets/gralab_theme_15/plugins/fontawesome/all.min.css",
+    "/assets/gralab_theme_15/plugins/tooltip/tooltip-theme-twipsy.css",
+    "/assets/gralab_theme_15/plugins/flat-icons/flaticon.css",
+    "/assets/gralab_theme_15/plugins/simple-calendar/simple-calendar.css",
     "datavalue_theme.bundle.css"
 ]
 
 app_include_js = [
-    "/assets/datavalue_theme_15/plugins/vue/vue.js",
-    "/assets/datavalue_theme_15/plugins/bootstrap4c-chosen/chosen.min.js",
-    "/assets/datavalue_theme_15/plugins/nicescroll/nicescroll.js",
-    "/assets/datavalue_theme_15/plugins/tooltip/tooltip.js",
-    "/assets/datavalue_theme_15/plugins/jquery-fullscreen/jquery.fullscreen.min.js?ver=1",
-    "/assets/datavalue_theme_15/plugins/simple-calendar/jquery.simple-calendar.js",
-    "/assets/datavalue_theme_15/js/datavalue_theme.app.min.js"
+    "/assets/gralab_theme_15/plugins/vue/vue.js",
+    "/assets/gralab_theme_15/plugins/bootstrap4c-chosen/chosen.min.js",
+    "/assets/gralab_theme_15/plugins/nicescroll/nicescroll.js",
+    "/assets/gralab_theme_15/plugins/tooltip/tooltip.js",
+    "/assets/gralab_theme_15/plugins/jquery-fullscreen/jquery.fullscreen.min.js?ver=1",
+    "/assets/gralab_theme_15/plugins/simple-calendar/jquery.simple-calendar.js",
+    "/assets/gralab_theme_15/js/datavalue_theme.app.min.js"
     # "datavalue_theme.bundle.js"
 ]
 
-email_brand_image = "assets/datavalue_theme_15/images/logo-v.png"
+email_brand_image = "assets/gralab_theme_15/images/logo-v.png"
 
 # include js, css files in header of web template
 web_include_css = [
-    "assets/datavalue_theme_15/plugins/fontawesome/all.min.css",
-    "assets/datavalue_theme_15/css/login.css",
-    "assets/datavalue_theme_15/css/dv-login.css?ver=" + app_version
+    "assets/gralab_theme_15/plugins/fontawesome/all.min.css",
+    "assets/gralab_theme_15/css/login.css",
+    "assets/gralab_theme_15/css/dv-login.css?ver=" + app_version
 ]
 web_include_js = [
-    "/assets/datavalue_theme_15/js/datavalue_theme.web.min.js?ver=" + app_version
+    "/assets/gralab_theme_15/js/datavalue_theme.web.min.js?ver=" + app_version
 ]
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/datavalue_theme_15/css/datavalue_theme_15.css"
-# app_include_js = "/assets/datavalue_theme_15/js/datavalue_theme_15.js"
+# app_include_css = "/assets/gralab_theme_15/css/gralab_theme_15.css"
+# app_include_js = "/assets/gralab_theme_15/js/gralab_theme_15.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/datavalue_theme_15/css/datavalue_theme_15.css"
-# web_include_js = "/assets/datavalue_theme_15/js/datavalue_theme_15.js"
+# web_include_css = "/assets/gralab_theme_15/css/gralab_theme_15.css"
+# web_include_js = "/assets/gralab_theme_15/js/gralab_theme_15.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "datavalue_theme_15/public/scss/website"
+# website_theme_scss = "gralab_theme_15/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -75,7 +75,7 @@ web_include_js = [
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "datavalue_theme_15/public/icons.svg"
+# app_include_icons = "gralab_theme_15/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -99,43 +99,43 @@ web_include_js = [
 
 # add methods and filters to jinja environment
 # jinja = {
-#	"methods": "datavalue_theme_15.utils.jinja_methods",
-#	"filters": "datavalue_theme_15.utils.jinja_filters"
+#	"methods": "gralab_theme_15.utils.jinja_methods",
+#	"filters": "gralab_theme_15.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "datavalue_theme_15.install.before_install"
-# after_install = "datavalue_theme_15.install.after_install"
+# before_install = "gralab_theme_15.install.before_install"
+# after_install = "gralab_theme_15.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "datavalue_theme_15.uninstall.before_uninstall"
-# after_uninstall = "datavalue_theme_15.uninstall.after_uninstall"
+# before_uninstall = "gralab_theme_15.uninstall.before_uninstall"
+# after_uninstall = "gralab_theme_15.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "datavalue_theme_15.utils.before_app_install"
-# after_app_install = "datavalue_theme_15.utils.after_app_install"
+# before_app_install = "gralab_theme_15.utils.before_app_install"
+# after_app_install = "gralab_theme_15.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "datavalue_theme_15.utils.before_app_uninstall"
-# after_app_uninstall = "datavalue_theme_15.utils.after_app_uninstall"
+# before_app_uninstall = "gralab_theme_15.utils.before_app_uninstall"
+# after_app_uninstall = "gralab_theme_15.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "datavalue_theme_15.notifications.get_notification_config"
+# notification_config = "gralab_theme_15.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -174,39 +174,39 @@ web_include_js = [
 
 # scheduler_events = {
 #	"all": [
-#		"datavalue_theme_15.tasks.all"
+#		"gralab_theme_15.tasks.all"
 #	],
 #	"daily": [
-#		"datavalue_theme_15.tasks.daily"
+#		"gralab_theme_15.tasks.daily"
 #	],
 #	"hourly": [
-#		"datavalue_theme_15.tasks.hourly"
+#		"gralab_theme_15.tasks.hourly"
 #	],
 #	"weekly": [
-#		"datavalue_theme_15.tasks.weekly"
+#		"gralab_theme_15.tasks.weekly"
 #	],
 #	"monthly": [
-#		"datavalue_theme_15.tasks.monthly"
+#		"gralab_theme_15.tasks.monthly"
 #	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "datavalue_theme_15.install.before_tests"
+# before_tests = "gralab_theme_15.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-#	"frappe.desk.doctype.event.event.get_events": "datavalue_theme_15.event.get_events"
+#	"frappe.desk.doctype.event.event.get_events": "gralab_theme_15.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-#	"Task": "datavalue_theme_15.task.get_dashboard_data"
+#	"Task": "gralab_theme_15.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -220,13 +220,13 @@ web_include_js = [
 
 # Request Events
 # ----------------
-# before_request = ["datavalue_theme_15.utils.before_request"]
-# after_request = ["datavalue_theme_15.utils.after_request"]
+# before_request = ["gralab_theme_15.utils.before_request"]
+# after_request = ["gralab_theme_15.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["datavalue_theme_15.utils.before_job"]
-# after_job = ["datavalue_theme_15.utils.after_job"]
+# before_job = ["gralab_theme_15.utils.before_job"]
+# after_job = ["gralab_theme_15.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -256,7 +256,7 @@ web_include_js = [
 # --------------------------------
 
 # auth_hooks = [
-#	"datavalue_theme_15.auth.validate"
+#	"gralab_theme_15.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
