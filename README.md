@@ -1,7 +1,3 @@
-## Gralab Theme 15
+## Gralab Theme
 
-Frappe 15 Theme App
-
-#### License
-
-mit
+Gralab Theme App
