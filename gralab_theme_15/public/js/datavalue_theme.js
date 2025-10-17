@@ -188,7 +188,7 @@
                     const $this = this;
                     let logo = 'gralab-logo.svg';
                     if ($('html').attr('data-theme-mode') == 'dark') {
-                        logo = 'datavalue-new-logo-light.svg';
+                        logo = 'gralab-logo-light.svg';
                     }
                     frappe.call({
                         type: 'POST',
@@ -209,7 +209,7 @@
             async mounted() {
                 let logo = 'gralab-logo.svg';
                 if ($('html').attr('data-theme-mode') == 'dark') {
-                    logo = 'datavalue-new-logo-light.svg';
+                    logo = 'gralab-logo-light.svg';
                 }
                 if (frappe.theme_settings && frappe.theme_settings.theme_logo && frappe.theme_settings.theme_logo.length) {
                     this.logo_path = frappe.theme_settings.theme_logo;
