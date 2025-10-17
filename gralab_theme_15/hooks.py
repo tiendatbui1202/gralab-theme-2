@@ -36,7 +36,7 @@ app_include_js = [
     # "datavalue_theme.bundle.js"
 ]
 
-email_brand_image = "assets/gralab_theme_15/images/logo-v.png"
+email_brand_image = "assets/gralab_theme_15/images/logo-v-dark.svg"
 
 # include js, css files in header of web template
 web_include_css = [
